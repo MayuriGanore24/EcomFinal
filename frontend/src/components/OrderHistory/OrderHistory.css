@@ -1,0 +1,24 @@
+.order-history {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .order-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-item {
+    padding: 20px;
+    background: #eaeaea;
+    border-radius: 6px;
+  }
+  

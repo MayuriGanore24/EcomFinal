@@ -1,0 +1,10 @@
+.container {
+  width: 70rem !important;
+}
+.cart_single {
+  align-items: end;
+}
+.image_single {
+  padding: 5rem;
+  width: 30rem;
+}

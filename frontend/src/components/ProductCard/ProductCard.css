@@ -1,0 +1,123 @@
+.product-card {
+  padding: 20px;
+  margin: 10px;
+  /* box-shadow: #fff 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+  border-radius: 6px;
+  text-align: left;
+  color: rgb(86, 172, 223);
+}
+
+.product-card img {
+  width: 100%;
+  height: 10em;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  color: white;
+}
+
+.product-card p {
+  color: white;
+}
+
+.product-card button {
+  padding: 10px;
+  background-color: #4c00b4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #3c009d;
+}
+.productname {
+  color: #fff;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Slider Css */
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  /* -webkit-appearance: none; */
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.Slider_text {
+  color: #ffffff;
+}
